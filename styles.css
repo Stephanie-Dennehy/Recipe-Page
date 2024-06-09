@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --darkRaspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --roseWhite: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --lightGray: hsl(30, 18%, 87%);
+    --wengeBrown: hsl(30, 10%, 34%);
+    --darkCharcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif; 
+    font-family: 'Young Serif', serif;
+    background-color: var(--eggshell);
+}
+
+h1, h2 {
+    font-family: 'Young Serif', serif;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--darkCharcoal);
+    margin-bottom: 8px;
+
+}
+h2 {
+    color: var(--nutmeg);
+    margin-bottom: 8px;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+span {
+    font-weight: 700;
+}
+
+ul, ol {
+    padding-left: 24px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    line-height: 2.5;
+}
+
+li::marker {
+    color: var(--nutmeg);
+}
+
+p, span, ul, ol, hr {
+    color: var(--wengeBrown);
+}
+
+section, hr {
+    margin-bottom: 32px;
+}
+
+.card {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    aign-items: center;
+    background-color: var(--white);
+    margin: 20px auto;
+    padding: 24px 40px;
+    border-radius: 8px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.preparation {
+    background-color: var(--roseWhite);
+    padding: 24px;
+    border-radius: 8px;
+    line-height: 2;
+}
+
+.large {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--darkRaspberry);
+    padding-bottom: 8px;
+}
+.nutrition__info {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.nutrition__item {
+    display: flex;
+    border-bottom: 1px solid var(--lightGray);
+    padding: 16px 0;
+}
+
+.nutrition__item:last-child {
+    border-bottom: none;
+}
+
+.label {
+    width: 50%;
+}
+.value {
+    font-weight: 700;
+    color: var(--nutmeg);
+}
+
+
+
+footer {
+    margin: 16px 0;
+    text-align: center;
+}
