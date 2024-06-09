@@ -73,7 +73,7 @@ section, hr {
 
 .card {
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,4 +132,81 @@ img {
 footer {
     margin: 16px 0;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .card {
+        padding: 16px;
+    }
+    .preparation {
+        padding: 16px;
+    }
+    .large {
+        font-size: 1.125rem;
+    }
+    .nutrition__item {
+        padding: 8px 0;
+    }
+    .label {
+        width: 40%;
+    }
+}
+
+@media (max-width: 350px) {
+    body {
+        background-color: var(--white);
+    }
+
+    hr {
+        width: 80%;
+        align-self: center;
+    }
+
+    p, ul, ol {
+        line-height: 1.75;
+    }
+
+    .card {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        border-radius: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .heading, .ingredients, .instructions, .nutrition {
+        padding:  0 20px;
+        margin-bottom: 16px;
+    }
+
+    .preparation {
+        padding: 8px;
+        margin: 16px 12px
+    }
+    .large {
+        font-size: 1rem;
+    }
+    .nutrition__item {
+        width: 90%;    
+        align-self: center;
+    }
+    .label {
+        padding-left: 20px;
+    }
+
+    .value {
+        margin-left: 50px;
+    }
+
+    .nutrition__desc {
+        padding-bottom: 16px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
 }
