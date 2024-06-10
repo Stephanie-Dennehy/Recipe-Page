@@ -31,7 +31,7 @@ h1, h2 {
 
 h1 {
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 400;
     color: var(--darkCharcoal);
     margin-bottom: 8px;
 
@@ -80,7 +80,7 @@ section, hr {
     aign-items: center;
     background-color: var(--white);
     margin: 120px auto;
-    padding: 40px 40px 0 40px;
+    padding: 40px 40px 12px 40px;
     border-radius: 24px;
 }
 
