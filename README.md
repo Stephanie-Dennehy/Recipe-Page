@@ -33,7 +33,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 I learned a few new things in this project. I had never created a list where I needed the bullet points/numbers to be a different color. So I enjoyed learning about using the li::marker in CSS. 
 
-I also went back and forth between trying to create a table or using flexbox for the nutrition info displayed at the bottom of the page. I ultimately settled on flexbox because it seemed like a simpler solution that was easier to read than trying to invert the row and columns of the table. 
+I also went back and forth between trying to create a table or using flex box for the nutrition info displayed at the bottom of the page. I ultimately settled on flex box because it seemed like a simpler solution that was easier to read than trying to invert the row and columns of the table. 
 
 
 ### Continued development
